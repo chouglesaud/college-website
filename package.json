@@ -1,0 +1,24 @@
+{
+  "name": "collegewebsite",
+  "version": "1.0.0",
+  "description": "rajaram shinde college of engineering website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Chougle-saud/collegewebsite.git"
+  },
+  "keywords": [
+    "engineering",
+    "college"
+  ],
+  "author": "saudchougle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chougle-saud/collegewebsite/issues"
+  },
+  "homepage": "https://github.com/Chougle-saud/collegewebsite#readme"
+}

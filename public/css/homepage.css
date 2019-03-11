@@ -1,0 +1,418 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Francois One', sans-serif; */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:800);
+*{
+  font-family: 'Lato', sans-serif;
+}
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+.cover{
+  top: 0;
+  width: 100%;
+  background-image: url(../images/coverpage.jpg);
+  background-color: rgba(0,0,0,0.2);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.mycarousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.slidercont{
+  padding: 25px;
+
+}
+ .introcont{
+  padding: 20px;
+
+}
+
+.navbar{
+  background: rgba(0,0,0,0.2);
+  font-family: 'Lato', sans-serif;
+  font-weight: 555;
+  color: #f8f9fa;
+}
+.nav-item .nav-link{
+  color: #f8f9fa;
+}
+
+.nav-item:hover{
+  background: #f8f9fa;
+  
+}
+.nav-link:hover{
+  color: black;
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
+
+i{
+ color: white;
+
+}
+.centered {
+  background-color: rgba(0,0,0,0.1 );
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+}
+
+.centered .name{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0,0,0,0.1 );
+}
+.centered .name::after{
+  margin-top: 20px;
+  display: block;
+  content: "THE PRIDE OF KONKAN";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.intropara{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.intro{
+ padding: 25% 0px;
+  
+}
+
+.size{
+  /* padding: 40px 40px; */
+  height: 100vh;
+}
+.greet{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 555;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+.heading{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 555;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  
+}
+.para{
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  color: #707070;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.center2{
+  
+  height: 100vh;
+  
+}
+.notification-heading{
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 449;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+.center3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center4{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  
+}
+.list-group-item{
+  width: 80%;
+  
+}
+.list-group-item p{
+  font-size: 12px;
+}
+/* ------------------------------------------------------------------- */
+/* extra large screen */
+
+/* @media (min-width: 1281px) {
+  .container-fluid{
+    padding: 0;
+    margin: 0;
+  }
+  .cover{
+    top: 0;
+    width: 100%;
+    background-image: url(../images/coverpage.jpg);
+    background-color: rgba(0,0,0,0.2);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 100vh;
+  }
+  
+  .navbar{
+    background: rgba(0,0,0,0.2);
+    font-family: 'Lato', sans-serif;
+    font-weight: 555;
+    color: #f8f9fa;
+  }
+  .nav-item .nav-link{
+    color: #f8f9fa;
+  }
+  
+  .nav-item:hover{
+    background: #f8f9fa;
+    
+  }
+  .nav-link:hover{
+    color: black;
+  }
+  
+  .dropdown-toggle::after{
+    display: none;
+  }
+  
+  i{
+   color: white;
+  
+  }
+
+  .centered {
+    background-color: rgba(0,0,0,0.1 );
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centered .name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0,0,0,0.1 );
+  }
+  .centered .name::after{
+    margin-top: 20px;
+    display: block;
+    content: "THE PRIDE OF KONKAN";
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  .intropara{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  .intro{
+   padding:25px 0px;
+    
+  }
+  
+  .gallery{
+    padding: 60px 40px;
+    height: 100vh;
+  }
+  .greet{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 555;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+  }
+  .heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 555;
+    font-size: 24px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    
+  }
+  .para{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    color: #707070;
+  }
+  
+   
+    
+} */
+
+
+
+/* ---------------------------------------------------------------------- */
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+  
+  .navbar{
+    background: rgba(0,0,0,0.65);
+    font-family: 'Lato', sans-serif;
+    font-weight: 555;
+    color: #f8f9fa;
+  }
+  .cover{
+    background-color: rgba(0,0,0,0.8)
+  }
+  .centered {
+    
+    background-color: rgba(0,0,0,0.1 );
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }
+  .mycarousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120vh;
+  }
+  .slidercont{
+    padding: 25px;
+    padding-bottom: 20px;
+  
+  }
+   .introcont{
+    padding: 30px;
+    margin-bottom: 0px;
+  }
+  
+  .centered .name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0,0,0,0.1 );
+  }
+  .centered .name::after{
+    margin-top: 20px;
+    display: block;
+    content: "THE PRIDE OF KONKAN";
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  
+.intropara{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: white;
+  word-spacing: 0.5px;
+}
+.mycarousel{
+  margin-top: -50%;
+ 
+}
+.intro{
+  margin-top: -20%;
+  
+}
+
+.size{
+  /* padding: 40px 40px; */
+  /* height: 100vh; */
+}
+.greet{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 555;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.heading{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 555;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  
+}
+.para{
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  color: #707070;
+}
+
+.center2{
+  
+  height: 100vh;
+  
+}
+.notification-heading{
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 449;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+.center3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center4{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  
+}
+.list-group-item{
+  width: 85%;
+  
+}
+.list-group-item h5{
+  font-size: 15px;
+}
+.list-group-item p{
+  font-size: 11px;
+}
+}
