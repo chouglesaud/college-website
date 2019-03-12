@@ -44,16 +44,24 @@ font-family: 'Francois One', sans-serif; */
 }
 .nav-item .nav-link{
   color: #f8f9fa;
+
 }
 
-.nav-item:hover{
-  background: #f8f9fa;
+.dropdown-menu.show::before{
+  display: block;
+  content: "";
+  margin-top: -15px;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+  background-color: #f8f9fa;
+}
+.dropdown-menu{
+  background-color: #f8f9fa;
+  color: black;
   
 }
-.nav-link:hover{
-  color: black;
-}
-
 .dropdown-toggle::after{
   display: none;
 }
@@ -108,7 +116,6 @@ i{
 }
 
 .size{
-  /* padding: 40px 40px; */
   height: 100vh;
 }
 .greet{
@@ -229,7 +236,7 @@ i{
   font-size: 15px;
   text-align: justify;
 }
-/* ------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
 /* extra large screen */
 
 /* @media (min-width: 1281px) {
@@ -345,7 +352,29 @@ i{
     
 } */
 
-
+/* ---------------------------------------------------------------------- */
+/* for tablet landscape mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .size{
+    height: auto;
+  }
+  .mycarousel{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+  .slidercont{
+    padding: 0px 30px;
+  
+  }
+   .introcont{
+    padding: 0px 30px;
+  }
+  
+    
+}
 
 /* ---------------------------------------------------------------------- */
 /* mobile */
@@ -359,11 +388,11 @@ i{
     color: #f8f9fa;
   }
   .cover{
-    background-color: rgba(0,0,0,0.8)
+    background-color: rgba(0,0,0,0.9)
   }
   .centered {
     
-    background-color: rgba(0,0,0,0.1 );
+    background-color: rgba(0,0,0,0 );
     width: 100%;
     position: absolute;
     top: 50%;
@@ -374,16 +403,14 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120vh;
+    height: auto;
   }
   .slidercont{
-    padding: 25px;
-    padding-bottom: 20px;
+    padding: 0px 30px;
   
   }
    .introcont{
-    padding: 30px;
-    margin-bottom: 0px;
+    padding: 0px 30px;
   }
   
   .centered .name{
@@ -391,7 +418,7 @@ i{
     font-size: 42px;
     font-weight: bold;
     color: white;
-    background-color: rgba(0,0,0,0.1 );
+    background-color: rgba(0,0,0,0 );
   }
   .centered .name::after{
     margin-top: 20px;
@@ -501,4 +528,43 @@ i{
   font-size: 32px;
   text-align: justify;
 }
+}
+
+/* ------------------------------------------------------------------ */
+/* mobile landscape mode */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .centered .name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0,0,0,0 );
+  }
+  .centered .name::after{
+    margin-top: 20px;
+    display: block;
+    content: "THE PRIDE OF KONKAN";
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+    
+  .mycarousel{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+  .slidercont{
+    padding: 0px 30px;
+  
+  }
+   .introcont{
+    padding: 0px 30px;
+  }
+    
 }
