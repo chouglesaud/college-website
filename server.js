@@ -17,6 +17,8 @@ app.set("view engine","ejs");
 app.get("/",(req,res)=>{
     res.render("homepage")
 });
-
+app.get("/images/entirepage",(req,res)=>{
+    res.send(path.join("/images/entirepage.png"));
+})
 
 
