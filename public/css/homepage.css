@@ -55,13 +55,13 @@ font-family: 'Francois One', sans-serif; */
   width: 15px;
   height: 15px;
   transform: rotate(45deg);
-  background-color: #f8f9fa;
+  background-color: white;
 }
-.dropdown-menu{
+/* .dropdown-menu{
   background-color: #f8f9fa;
   color: black;
   
-}
+} */
 .dropdown-toggle::after{
   display: none;
 }
