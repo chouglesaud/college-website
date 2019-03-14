@@ -1,0 +1,23 @@
+blockquote{
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+}
+blockquote p{
+    font-size: 18px;
+}
+.aboutintro{
+    padding: 10% 0px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    blockquote{
+        padding: 10px 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    blockquote p{
+        font-size: 15px;
+    }
+    
+}
+
