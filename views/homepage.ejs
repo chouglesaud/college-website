@@ -18,6 +18,8 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- googlefont -->
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Lato:900" rel="stylesheet">
     <!-- custom style -->
@@ -122,10 +124,10 @@
           </nav>   
       <div class="cover">
         <div class="centered">
-            <h1 class="name">
+            <h1 class="name animated slideInRight">
                 Mandar Education Society
               </h1>
-              <p class="intropara"> Established In 1983 || 33 Years Of Curriculum</p>
+              <p class="intropara animated fadeInLeft"> Established In 1983 || 33 Years Of Curriculum</p>
         </div>
         
            
@@ -333,30 +335,42 @@
       </div>
 
       <div class="row location" style="background-color: #fffdf6; height: auto;">
-         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-            <h3 class="text-center" >HOW TO GET THERE</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+           <h3 class="text-center" >HOW TO GET THERE</h3>
+        </div>
+       <div class="col-lg-6 col-md-6 col-sm-10 col-12 howtoreach">
+         <h5><mark>From Mumbai</mark></h5>
+         <ul style="  font-size: 15px;">
+             <li>
+                 <p>By Bus:  about 250 kms. away from Mumbai</p>
+               </li>
+           <li >
+               <p>Nearest Railway Station</p>
+               <p>Chiplun: 20 kms. (about 280 kms. away from Mumbai	)</p>
+           </li>
+           <li>
+             <p>Nearest S.T Stand</p>
+             <p>Mandar College: 15 kms from Chiplun. </p>
+           </li>
+         </ul>
+             <h5 style="padding-top: 10px;"><mark>From Pune</mark></h5>
+             <ul style=" font-size: 15px;">
+                 <li>
+                     <p>By Bus:  about 223 kms. away from Pune</p>
+                   </li>
+                 <li>
+                   <p>Nearest S.T Stand</p>
+                   <p>Mandar College: 15 kms from Chiplun. </p>
+                 </li>
+                 
+               </ul>
+       </div>
+       <div class="col-lg-6 col-md-6 col-sm-10 col-12">
+         <div class="mapcont" style="width:100%;height:400px">
+           <!-- <img  src="/images/map.png" alt=""> -->
          </div>
-        <div class="col-lg-6 col-md-6 col-sm-10 col-12 howtoreach">
-          <h5><mark>From Mumbai</mark></h5>
-          <p style="color:#707070">Mumbai-Chiplun distance is 265 km.             
-              By Private Transport, travel time is 6 hours
-              By State Transport Bus, travel time is 7 hours
-              Mumbai-Chiplun State Transport buses leave from 
-              Mumbai Central, Parel, as well as Thane, Dombivali,
-              Kalyan, Borivali, Vasai, Virar.
-              Besides, all State Transport buses to Konkan, pass through Chiplun</p>
-              <h5><mark>From Pune</mark></h5>
-              <p style="color: #707070">Pune-Chiplun distance is 220 km.                 
-                  By Private Transport, travel time is 4 hours
-                  By State Transport Bus, travel time is 5 hours 
-                  Pune-Chiplun State Transport buses are available.</p>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-10 col-12">
-          <div class="mapcont">
-            <img  src="/images/map.png" alt="">
-          </div>
-        </div>
-      </div>
+       </div>
+     </div>
       <div class="row d-flex footer" data-spy="scroll"  style="background-color:#666">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="height: 100px;" >
             <h2 class="text-left"  data-target="#navbar-example2" data-offset="0" id="contact">CONTACTS</h2>
@@ -469,18 +483,45 @@
                                                             </div>
                                                             <div class="col-lg-4 col-md-6 col-sm-12 col-12 phone">
                                                                 <li><p>English Medium <br> <span>  @gmail.com </span></p></li>
-                                                                </div>
+                                                                </div>                            
+                      </div>
+                      <div class="row d-flex" style="background-color: #5e5d5d;">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                         <p class="text-center" style="color: #ccc; padding-top: 10px;">Copyright © 2015 - All Rights Reserved - <a style="color: #ccc; " href="http://mandaredusoc.org">mandaredusoc.org</a></p>
+                        </div>
                       </div>
       </div>
     </div>
 
-    <!-- axios -->
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   
+ 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+     <!-- axios -->
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBe8RkEcuvdEoZbXZGGwC-RWJnRTBcYDdE&callback=mymap" async=""></script>
+    <script>
+    
+  function mymap() {
+
+var mapProp= {
+  center: new google.maps.LatLng(17.474400816455308,73.61422419548035),
+  zoom: 18,
+};
+var map = new google.maps.Map(document.querySelector(".mapcont"),mapProp);
+var marker = new google.maps.Marker({
+    position: myCenter,
+    icon: 'img/smally.png',
+    animation: google.maps.Animation.BOUNCE
+  });
+
+  marker.setMap(map);
+}
+</script>
   </body>
 </html>
