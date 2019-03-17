@@ -319,35 +319,34 @@ i{
     color: #f8f9fa;
   }
   .cover{
-    display: block;
+    
     top: 0;
     width: 100%;
-    background-image: url(../images/coverpage1.gif);
+    height: 100vh;
+    background-image: url(../images/coverpage.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    
+    
   }
 
     
        
-    /* .cover::before{
+  .cover::before{ 
   
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 86%;
+    
+      height: 110%;
       width: 100%;
       content: '';
       background: #C04848;  
       background: -webkit-linear-gradient(to right, rgb(71, 0, 71), #C04848);
       background: linear-gradient(to right, #480048, #C04848); 
       opacity: .6; 
+      overflow: hidden;
   
-  } */
+  }
   .centered {
     
     width: 100%;
