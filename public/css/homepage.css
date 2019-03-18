@@ -172,9 +172,10 @@ i{
 .notification-heading{
   margin-top: 20px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 449;
-  font-size: 18px;
+  font-weight: 448;
+  font-size: 16px;
   letter-spacing: 0.5px;
+  text-align: justify;
 }
 .center3{
   width: 100%;
