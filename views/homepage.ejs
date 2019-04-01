@@ -20,10 +20,12 @@
     />
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- googlefont -->
-    <link href="https://fonts.googleapis.com/css?family=Francois+One|Lato:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Lato:900|Nunito" rel="stylesheet">
     <!-- custom style -->
     <link rel="stylesheet" href="/css/homepage.css" />
+    <link rel="stylesheet" href="/css/global.css">
  
 
     <title>Mandar Education Society</title>
@@ -51,8 +53,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="/chairman">Chairman</a>
-                      <a class="dropdown-item" href="#">Management Commitee</a>
-                      <a class="dropdown-item" href="#">Principal</a>
+                      <a class="dropdown-item" href="/management">Management Commitee</a>
+                      <a class="dropdown-item" href="/principal">Principal</a>
                   </li>
 
                   <!-- Institute -->
@@ -117,8 +119,8 @@
                       </li>
 
                       <!-- contact -->
-                      <li class="nav-item my-2 my-lg-0 dropdown ">
-                          <a class="nav-link" href="#contact">Contact</a>
+                      <li class="nav-item my-2 my-lg-0 dropdown " >
+                          <a class="nav-link" href="#contact" >Contact</a>
                         </li>
                     
               </ul>
@@ -136,7 +138,7 @@
       </div>   
       </div>  
       
-      <div class="row mycarousel size justify-content-around d-flex" style="background-color: #f2f2f2">
+      <div class="row mycarousel justify-content-around d-flex" style="background-color: #FAFAFA;">
           <div class="col-lg-5 col-md-12 col-sm-12 col-12 slidercont">
             <div class="bd-example">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -209,8 +211,8 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 col-12 introcont">
-              <div class="intro">
-                  <h4 class="text-center greet">Welcome To</h4>
+              <div class="intro " data-aos="fade-left">
+                  <h4 class="text-center greet">Welcome to</h4>
                   <h1 class="heading">MANDAR EDUCATION SOCIETY</h1>
                   <p class="para">
                     Konkan is a most picturesque yet most backward
@@ -234,7 +236,7 @@
       <!-- notification center -->
       <div class="row  d-flex" >
         
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12  " style=" background-color: #87CEF5; padding: 0; margin: 0; width: 100%; height: auto;">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12  " style=" background-color: #47a7db; padding: 0; margin: 0; width: 100%; height: auto;">
             <h5 class="text-center notification-heading">MES Notification Center</h5>
             <div class="list-group center" style="overflow-y:scroll;" >
                 <a href="#" class="list-group-item list-group-item-action">
@@ -284,8 +286,8 @@
           
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12" style=" background-color: #f89f91; padding: 0; margin: 0; width: 100%; height: auto;">
-            <h5 class="text-center notification-heading">University/DTE/AICTE/MSBTE Notification Center</h5>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12" style=" background-color: #f16f6f; padding: 0; margin: 0; width: 100%; height: auto;">
+            <h5 class="text-center notification-heading">University Notification Center</h5>
             <div class="list-group center" style="overflow-y: scroll;">
                 <a href="#" class="list-group-item list-group-item-action">
                     <div class="d-flex w-100 justify-content-between">
@@ -337,13 +339,13 @@
         </div>
       </div>
 
-      <div class="row location" style="background-color: #fffdf6; height: auto;">
+      <div class="row location" style="background-color: #ffffff; height: auto;">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-           <h3 class="text-center" >HOW TO GET THERE</h3>
+           <h3 class="text-left htget" style="padding: 10px 0px;">HOW TO GET THERE</h3>
         </div>
        <div class="col-lg-6 col-md-6 col-sm-10 col-12 howtoreach">
-         <h5><mark>From Mumbai</mark></h5>
-         <ul style="  font-size: 15px;">
+         <h5>From Mumbai</h5>
+         <ul style="font-size: 15px;">
              <li>
                  <p>By Bus:  about 250 kms. away from Mumbai</p>
                </li>
@@ -356,7 +358,7 @@
              <p>Mandar College: 15 kms from Chiplun. </p>
            </li>
          </ul>
-             <h5 style="padding-top: 10px;"><mark>From Pune</mark></h5>
+             <h5 style="padding-top: 10px;">From Pune</h5>
              <ul style=" font-size: 15px;">
                  <li>
                      <p>By Bus:  about 223 kms. away from Pune</p>
@@ -504,10 +506,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <!-- axios -->
      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!-- google map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBe8RkEcuvdEoZbXZGGwC-RWJnRTBcYDdE&callback=mymap" async=""></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
      function mymap() {
 

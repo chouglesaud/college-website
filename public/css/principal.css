@@ -1,0 +1,30 @@
+.tablecont{
+    padding: 2% 0px;
+    overflow: auto;
+}
+h1{
+    padding: 20px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+}
+table{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+   
+}
+table tr th{
+    text-align: center;
+    background-color: #F8F9FA;
+    font-size: 18px;
+}
+table tr td{
+    text-align: center;
+    font-size: 15px;
+    color: #212529;
+}
+table tr td span{
+    float: right;
+    font-size: 15px;
+    color: #212529;
+}
+

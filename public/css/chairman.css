@@ -11,7 +11,7 @@ blockquote p{
 
 @media (min-width: 320px) and (max-width: 480px) {
     blockquote{
-        padding: 10px 0px;
+        padding: 15px 0px;
         font-family: 'Lato', sans-serif;
         text-align: center;
     }

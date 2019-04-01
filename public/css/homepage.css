@@ -14,10 +14,8 @@ font-family: 'Francois One', sans-serif; */
   width: 100%;
    
 }
-.navbar-collapse .navbar-nav .nav-item{
-    
-  padding: 0px 20px;
-   
+.navbar-collapse .navbar-nav .nav-item{ 
+  padding: 0px 8px; 
 }
 
 
@@ -36,9 +34,9 @@ font-family: 'Francois One', sans-serif; */
   width: 100%;
   content: '';
   background: #C04848; 
-  background: -webkit-linear-gradient(to right, #480048, #C04848);  
+  background: -webkit-linear-gradient(to right, #800580, #C04848);  
   background: linear-gradient(to right, #480048, #C04848); 
-  opacity: .6; 
+  opacity: .55; 
 }
 
 .mycarousel{
@@ -59,25 +57,19 @@ nav{
   height: 90px;
 }
 .navbar{
-  /* background: rgba(0,0,0,0.2); */
+
   font-family: 'Lato', sans-serif;
   font-weight: 555;
   color: #f8f9fa;
 }
 .nav-item .nav-link{
   color: black;
-
 }
 .nav-item .nav-link:hover{
   color: black;
   background-color: #ebebe3;
-
 }
-.nav-item .nav-link:active{
-  color: black;
-  background-color: #ebebe3;
 
-}
 
 
 
@@ -109,11 +101,11 @@ i{
   margin-top: 20px;
   display: block;
   content: "THE PRIDE OF KONKAN";
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
   color: white;
   letter-spacing: 1px;
-  word-spacing: 2px;
+  word-spacing: 1px;
 }
 .carousel-indicators li{
   width: 10px;
@@ -123,11 +115,11 @@ i{
 }
 .intropara{
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   color: white;
   letter-spacing: 1px;
-  word-spacing: 2px;
+  word-spacing: 1px;
 }
 .intro{
  padding: 25% 0px;
@@ -138,24 +130,27 @@ i{
   height: 100vh;
 }
 .greet{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 555;
   font-size: 18px;
   text-align: justify;
   letter-spacing: 0.5px;
+  color: black;
 }
 .heading{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 555;
   font-size: 24px;
   text-align: center;
   letter-spacing: 0.5px;
+  color: black;
   
 }
 .para{
   font-family: 'Lato', sans-serif;
   text-align: justify;
-  color: #707070;
+  color: #747474;
+  font-size: 16px;
 }
 .center{
   display: flex;
@@ -171,11 +166,9 @@ i{
 }
 .notification-heading{
   margin-top: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 448;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 .center3{
   width: 100%;
@@ -204,8 +197,21 @@ i{
   height: 100vh;
   padding: 25px;
 }
-.location h5{
-  font-size: 16px;
+.howtoreach h5{
+  width: auto;
+  font-size: 21px;
+  border-bottom: 2px solid #666666;
+  padding: 10px 0px;
+}
+.htget{
+  text-align: left;
+  font-family: 'Open Sans' ,sans-serif;
+  font-size: 32px;
+  text-align: justify;
+  
+}
+.howtoreach ul li p{
+  font-family: 'Lato', sans-serif;
 }
 .mapcont{
   display: flex;
@@ -338,22 +344,22 @@ i{
   .cover::before{ 
   
     
-      height: 110%;
+      height: 100%;
       width: 100%;
       content: '';
       background: #C04848;  
       background: -webkit-linear-gradient(to right, rgb(71, 0, 71), #C04848);
       background: linear-gradient(to right, #480048, #C04848); 
       opacity: .6; 
-      overflow: hidden;
+     
   
   }
   .centered {
     
     width: 100%;
     position: absolute;
-    top: 50%;
-    left: 52%;
+    top: 55%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
   .mycarousel{
@@ -376,54 +382,54 @@ i{
     font-size: 42px;
     font-weight: bold;
     color: white;
-    background-color: rgba(0,0,0,0 );
+
   }
   .centered .name::after{
     margin-top: 20px;
     display: block;
     content: "THE PRIDE OF KONKAN";
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     color: white;
     letter-spacing: 1px;
-    word-spacing: 2px;
+    word-spacing: 1px;
   }
   
 .intropara{
   display: block;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
   color: white;
-  word-spacing: 0.5px;
+  
 }
-.mycarousel{
-  margin-top: -50%;
- 
-}
+
 .intro{
   margin-top: -20%;
   
 }
 
 .greet{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 555;
   font-size: 15px;
   text-align: center;
-  letter-spacing: 0.5px;
+  color: black;
+
 }
 .heading{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 555;
   font-size: 18px;
   text-align: center;
-  letter-spacing: 0.5px;
+  color: black;
   
 }
 .para{
   font-family: 'Lato', sans-serif;
   text-align: justify;
-  color: #707070;
+  color: #747474;
+  font-size: 15px;
+  
 }
 
 .center2{
@@ -433,10 +439,10 @@ i{
 }
 .notification-heading{
   margin-top: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 449;
   font-size: 18px;
-  letter-spacing: 0.5px;
+ 
 }
 .center3{
   width: 100%;
@@ -461,21 +467,25 @@ i{
   font-size: 11px;
 }
 .location{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   height: 100vh;
   padding: 25px;
+  
 }
-.location h3{
-  font-size: 18px;
-  font-weight: bold;
+.htget{
+  text-align: left;
+  font-family: 'Open Sans' ,sans-serif;
+  font-size: 28px;
+  text-align: justify;
+
 }
 .mapcont{
   display: flex;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding: 5px;
 }
 .mapcont img{
@@ -507,17 +517,17 @@ i{
     font-size: 42px;
     font-weight: bold;
     color: white;
-    background-color: rgba(0,0,0,0 );
+    
   }
   .centered .name::after{
     margin-top: 20px;
     display: block;
     content: "THE PRIDE OF KONKAN";
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     color: white;
     letter-spacing: 1px;
-    word-spacing: 2px;
+    word-spacing: 1px;
   }
     
   .mycarousel{
