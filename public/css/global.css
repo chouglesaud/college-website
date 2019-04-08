@@ -1,17 +1,17 @@
-/* width */
+/* width
 ::-webkit-scrollbar {
     width: 10px;
   }
   
   /* Track */
-  ::-webkit-scrollbar-track {
+  /* ::-webkit-scrollbar-track {
 
     background: transparent;
    
-  }
+  } */
   
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+  /* ::-webkit-scrollbar-thumb {
     background: #737373;
  
-  }
+  }  */

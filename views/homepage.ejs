@@ -3,10 +3,10 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+
+ 
 
     <!-- Bootstrap CSS -->
     <link
@@ -34,103 +34,126 @@
 
   <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" id="navbar-example2">
-            <a class="navbar-brand logo" href="#"><img class="img-fluid" src="/images/original (2).png" width="75" height="75" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <!-- <span class="navbar-toggler-icon"></span> -->
-              <i class="fas fa-bars"></i>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <!-- about mandar -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      About mandar
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="/chairman">Chairman</a>
-                      <a class="dropdown-item" href="/management">Management Commitee</a>
-                      <a class="dropdown-item" href="/principal">Principal</a>
-                  </li>
+      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" id="navbar-example2">
+        <a class="navbar-brand logo" href="#"><img class="img-fluid" src="/images/original (2).png" width="75" height="75" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-bars"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- about mandar -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/chairman">Chairman</a>
+                  <a class="dropdown-item" href="/management">Management Commitee</a>
+                  <a class="dropdown-item" href="/principal">Principal</a>
+              </li>
 
-                  <!-- Institute -->
+              <!-- Institute -->
+              
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Institute
+              </a>
+              
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                  
+                      <a class="dropdown-item" id="show_hide">Engineering <span id="sign" style="float: right; font-size: 18px;">+</span></a>
+                      <div id="sub-dropdown">
+                      <a  href="/engineering/computer">Computer</a>
+                      <a  href="/engineering/mechanical">Mechanical</a>
+                      <a  href="/engineering/electrical">Electrical</a>
+                      <a  href="/engineering/electronics">Electronics</a>
+                      <a  href="/engineering/entc">Electronics & Telecommunication</a>
+                      <a  href="/engineering/science">Science</a>
+                      <hr>
+                    </div>
+  
+                  <a class="dropdown-item" id="show_hide">polytechnic <span id="sign" style="float: right;font-size: 18px;">+</span></a>
+                      <div id="sub-dropdown">
+                      <a  href="/polytechnic/computer">Computer</a>
+                      <a  href="/polytechnic/mechanical">Mechanical</a>
+                      <a  href="/polytechnic/electrical">Electrical</a>
+                      <a  href="/polytechnic/civil">Civil</a>
+                      <a  href="/polytechnic/automobile">Automobile</a>
+                      <a  href="/polytechnic/intc">Industrial Electronics & Telecommunication</a>
+                      <a  href="/polytechnic/science">Science</a>
+                      <hr>
+                    </div>
+                  <a class="dropdown-item" href="/pharmacy">Pharmacy</a>
+                  <a class="dropdown-item" href="/management">Management</a>
+                  <a class="dropdown-item" href="/seniorcollege">Senior College</a>
+                  <a class="dropdown-item" href="/bed">B.Ed</a>
+                  <a class="dropdown-item" href="/juniorcollege">Junior College</a>
+                  <a class="dropdown-item" href="/englishcollege">English College</a>
+                  <a class="dropdown-item" href="/englishmediumschool">English Medium School</a>
+             
+            </li>
 
-                <li class="nav-item dropdown">
+             <!-- Facilities -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Facilities
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/hostel">Hostel</a>
+                  <a class="dropdown-item" href="/library">Library</a>
+                  <a class="dropdown-item" href="/facilities">Other Facilities</a>
+                  
+              </li>
+
+              <!-- Admission -->
+              <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Institute
+                    Admission
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Engineering</a>
-                      <a class="dropdown-item" href="#">Polytechnic</a>
-                      <a class="dropdown-item" href="#">Pharmacy</a>
-                      <a class="dropdown-item" href="#">Management</a>
-                      <a class="dropdown-item" href="#">Senior College</a>
-                      <a class="dropdown-item" href="#">B.Ed</a>
-                      <a class="dropdown-item" href="#">Junior College</a>
-                      <a class="dropdown-item" href="#">English College</a>
-                      <a class="dropdown-item" href="#">English Medium School</a>
-                 
+                    <a class="dropdown-item" href="/adm-engineering">Engineering</a>
+                    <a class="dropdown-item" href="/adm-polytechnic">Polytechnic</a>
+                    <a class="dropdown-item" href="/adm-pharmacy">Pharmacy</a>
+                    <a class="dropdown-item" href="/adm-management">Management</a>
+                    <a class="dropdown-item" href="/adm-seniorcollege">Senior College</a>
+                    <a class="dropdown-item" href="/adm-bed">B.Ed</a>
+                    <a class="dropdown-item" href="/adm-juniorcollege">Junior College</a>
+                    <a class="dropdown-item" href="/adm-englishcollege">English College</a>
+                    <a class="dropdown-item" href="/adm-englishmediumschool">English Medium School</a>
+                    <a class="dropdown-item" href="/adm-staff">Admission Staff</a>
+                    
                 </li>
-
-                 <!-- Facilities -->
+                <!-- Student Section -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Facilities
+                      Student Section
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Hostel</a>
-                      <a class="dropdown-item" href="#">Library</a>
-                      <a class="dropdown-item" href="#">Other Facilities</a>
+                      <a class="dropdown-item" href="/results">Results</a>
+                      <a class="dropdown-item" href="/latestevent">Latest Event</a>
+                      <a class="dropdown-item" href="/sports">Sports</a>
                       
                   </li>
 
-                  <!-- Admission -->
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Admission
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Engineering</a>
-                        <a class="dropdown-item" href="#">Polytechnic</a>
-                        <a class="dropdown-item" href="#">Pharmacy</a>
-                        <a class="dropdown-item" href="#">Management</a>
-                        <a class="dropdown-item" href="#">Senior College</a>
-                        <a class="dropdown-item" href="#">B.Ed</a>
-                        <a class="dropdown-item" href="#">Junior College</a>
-                        <a class="dropdown-item" href="#">English College</a>
-                        <a class="dropdown-item" href="#">English Medium School</a>
-                        <a class="dropdown-item" href="#">Admission Staff</a>
-                        
+                  <!-- contact -->
+                  <li class="nav-item my-2 my-lg-0 dropdown ">
+                      <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <!-- Student Section -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Student Section
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Results</a>
-                          <a class="dropdown-item" href="#">Latest Event</a>
-                          <a class="dropdown-item" href="#">Sports</a>
-                          
-                      </li>
-
-                      <!-- contact -->
-                      <li class="nav-item my-2 my-lg-0 dropdown " >
-                          <a class="nav-link" href="#contact" >Contact</a>
-                        </li>
-                    
-              </ul>
-              
-            </div>
-          </nav>   
+                
+          </ul>
+          
+        </div>
+      </nav>  
       <div class="cover">
         <div class="overlay">
         <div class="centered">
-            <h1 class="name animated slideInRight">
+            <h1 class="name animated fadeInUp">
                 Mandar Education Society
               </h1>
               <p class="intropara animated fadeInLeft"> Established In 1983 || 33 Years Of Curriculum</p>
@@ -138,7 +161,7 @@
       </div>   
       </div>  
       
-      <div class="row mycarousel justify-content-around d-flex" style="background-color: #FAFAFA;">
+      <div class="row mycarousel justify-content-around" style="background-color: #FAFAFA;">
           <div class="col-lg-5 col-md-12 col-sm-12 col-12 slidercont">
             <div class="bd-example">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -154,50 +177,46 @@
                         <div class="carousel-item active">
                             <img src=" /images/slide1.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>
-                                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                                </p>
+                                <h5>Welcome to Konkan</h5>
+                                
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src=" /images/slide2.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h5>Engineering</h5>
+                                
                             </div>
                         </div>
                         <div class="carousel-item">
+                          <img src=" /images/slide6.jpg" class="d-block w-100" alt="..." />
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>Diploma</h5>
+                              
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src=" /images/slide5.jpg" class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Pharmacy</h5>
+                            
+                        </div>
+                    </div>
+                        <div class="carousel-item">
                             <img src=" /images/slide3.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl
-                                    consectetur.
-                                </p>
+                                <h5>English Medium School</h5>
+                                
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src=" /images/slide4.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h5>Law</h5>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src=" /images/slide5.jpg" class="d-block w-100" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src=" /images/slide6.jpg" class="d-block w-100" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
+                        
+                        
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -211,7 +230,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 col-12 introcont">
-              <div class="intro " data-aos="fade-left">
+              <div class="intro ">
                   <h4 class="text-center greet">Welcome to</h4>
                   <h1 class="heading">MANDAR EDUCATION SOCIETY</h1>
                   <p class="para">
@@ -343,9 +362,14 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
            <h3 class="text-left htget" style="padding: 10px 0px;">HOW TO GET THERE</h3>
         </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="mapcont" style="width:100%;height:400px">
+            <!-- <img  src="/images/map.png" alt=""> -->
+          </div>
+        </div>
        <div class="col-lg-6 col-md-6 col-sm-10 col-12 howtoreach">
          <h5>From Mumbai</h5>
-         <ul style="font-size: 15px;">
+         <ul >
              <li>
                  <p>By Bus:  about 250 kms. away from Mumbai</p>
                </li>
@@ -358,11 +382,17 @@
              <p>Mandar College: 15 kms from Chiplun. </p>
            </li>
          </ul>
-             <h5 style="padding-top: 10px;">From Pune</h5>
-             <ul style=" font-size: 15px;">
+       </div>
+       <div class="col-lg-6 col-md-6 col-sm-10 col-12 howtoreach">
+             <h5>From Pune</h5>
+             <ul>
                  <li>
                      <p>By Bus:  about 223 kms. away from Pune</p>
                    </li>
+                   <li >
+                    <p>There is no direct route!</p>
+                    <p>(pune-mumbai-chiplun)</p>
+                </li>
                  <li>
                    <p>Nearest S.T Stand</p>
                    <p>Mandar College: 15 kms from Chiplun. </p>
@@ -370,11 +400,7 @@
                  
                </ul>
        </div>
-       <div class="col-lg-6 col-md-6 col-sm-10 col-12">
-         <div class="mapcont" style="width:100%;height:400px">
-           <!-- <img  src="/images/map.png" alt=""> -->
-         </div>
-       </div>
+       
      </div>
       <div class="row d-flex footer" data-spy="scroll"  style="background-color:#666">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="height: 100px;" >
@@ -531,7 +557,12 @@
       marker.setMap(map);
     }
 </script>
-
+<script type="text/javascript">
+  $('.dropdown-menu').click(function(e) {
+        e.stopPropagation();
+  });
+</script>
+<script src="/js/homepage.js"></script>
 
   </body>
 </html>
